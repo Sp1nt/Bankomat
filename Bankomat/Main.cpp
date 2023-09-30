@@ -28,10 +28,10 @@ int main() {
             break;
         case 2:
             // Put it money
-            int amountToDeposit;
+            int amountToPutIt;
             cout << "Input the amount to top up: ";
-            cin >> amountToDeposit;
-            bankomat.loadSum(amountToDeposit);
+            cin >> amountToPutIt;
+            bankomat.loadSum(amountToPutIt);
             break;
         case 3:
             // print balance
